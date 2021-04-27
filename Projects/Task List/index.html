@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Task List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h4>Task List</h4>
+        <form id="task_form">
+            <input id="new_task" placeholder="New Task" type="text">
+            <button type="submit">Add Task</button>
+        </form>
+        <hr>
+        <h4>Tasks</h4>
+        <input type="text" placeholder="Filter Tasks" id="task_filter">
+        <ul id="tasks">
+
+        </ul>
+        <button id="clear_tasks_btn">Clear All Tasks</button>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
